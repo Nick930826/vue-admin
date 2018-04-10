@@ -34,7 +34,7 @@
                         </Submenu>
                     </Menu>
                 </Sider>
-                <Layout :style="{padding: '0 24px 24px'}">
+                <Layout :style="{padding: '24px 24px'}">
                     <Content :style="{background: '#fff'}">
                         <router-view></router-view>
                     </Content>
