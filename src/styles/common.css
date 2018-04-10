@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+li {
+    list-style: none;
+}
+
+.sub-menu .ivu-menu-item a {
+    color: #495060;
+}
+.sub-menu .ivu-menu-item a.router-link-active {
+    color: #2d8cf0;
+}
+
+.layout{
+    border: 1px solid #d7dde4;
+    background: #f5f7f9;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 100%!important;
+}
+.layout .ivu-menu-item-active {
+    color: #2d8cf0;
+}
+
+.layout .ivu-layout {
+    height: 100%;
+    background: #fff;
+}
+
+.layout .ivu-layout-header {
+    background: #2d8cf0;
+}
